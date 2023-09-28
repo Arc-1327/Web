@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+            #left
+            {
+                border-radius: 50%;
+                height: 30%;
+                width: 40%;
+                padding-top: 30px;
+                
+            }
+            #Sign
+            {
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                border: 2px solid black;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                width: 450px;
+                height: 550px;
+                background-color: white;
+            }
+            #image
+            {
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                border: 2px solid black;
+                width: 450px;
+                height: 550px;
+                background-color: white;    
+            }
+            h1
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                color: #01b591;
+            }
+            input
+            {
+                text-align: left;
+                border-radius: 5px;
+                height: 40px;
+                width: 250px;
+                border-color: #008167;
+            }
+            button
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                height: 35px;
+                width: 150px;
+                border-radius: 10px;
+                cursor: pointer;
+                background-color: #30d2b2;
+                color: white;
+                font-size: 15px;
+                
+
+            }
+            #container
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+            }
+
+        </style>
+    </head>
+    <body style="background-color: #95e8d839;">
+        <center>
+        <div id="container">
+            <div id="image">
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.455/build/spline-viewer.js" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;"></script>
+                <spline-viewer url="https://prod.spline.design/cJu7hEV9TC1Krd4Z/scene.splinecode"></spline-viewer>
+
+            </div>
+        <div id="Sign">
+            <img src="images/3d icon.jpg" alt="" id="left">
+            <br>
+            <h1>Archana T Dharan</h1>
+            <br>
+            <form action="">
+                
+                <input type="text" name="email" placeholder="Email ID">
+                <br><br>
+                <input type="password" name="password" placeholder="Password">
+                <br><br><br>
+                <button>
+                    SIGN IN
+                </button>
+            </form>
+        </div>
+        </div>
+        </center>
+        
+    </body>
+</html>
